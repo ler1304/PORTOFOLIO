@@ -1,0 +1,93 @@
+/* fungsi selector bintang (*)= untuk mereset kesettingan default */
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kotak1 
+h1{
+    border: 2px red solid;
+    width: 50%;
+    margin: 40px 20px 20px 10px;
+    text-align: center;
+    padding: 35px;
+}
+
+
+
+.kotak2
+h1{
+    border: 2px rgb(12, 17, 14) solid;
+    width: 50%;
+    padding:35px;
+    margin: 10px 20px 30px 10px ;
+    border-radius: 100px;
+    background-color: rgb(77, 74, 74);
+    text-align: center;
+}
+
+
+.kotak2
+h1:hover{
+    border: 2px rgb(12, 17, 14) solid;
+    width: 50%;
+    padding:35px;
+    margin: 10px 20px 30px 10px ;
+    border-radius: 100px;
+    background-color: rgb(67, 3, 214);
+    text-align: center;
+    transition: 0.5s;
+    color: white;
+}
+
+.button{
+    color: rgb(12, 11, 11);
+    text-decoration: none;
+}
+
+.button:hover{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.bintang{
+    color: rgb(8, 8, 0);
+    width: 50px;
+    display: flex;
+    /* flex: mengatur posisi kesamping kanan */
+    
+}
+
+.satu:hover{
+    color: yellow;
+    width: 50px;
+    display: flex;
+    /* background-color: yellow; */
+    transition: 0.5s;
+    fill: yellow;
+    /* flex: mengatur posisi kesamping kanan */
+    
+}
+
+.dua:hover{
+    color: yellow;
+    width: 50px;
+    display: flex;
+    /* background-color: yellow; */
+    transition: 0.5s;
+    fill: yellow;
+    /* flex: mengatur posisi kesamping kanan */
+    
+}
+
+.tiga:hover{
+    color: yellow;
+    width: 50px;
+    display: flex;
+    /* background-color: yellow; */
+    transition: 0.5s;
+    fill: yellow;
+    /* flex: mengatur posisi kesamping kanan */
+    
+}

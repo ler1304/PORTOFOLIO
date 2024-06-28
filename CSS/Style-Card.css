@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-centre{
+    justify-content: center;
+}
+
+.card{
+    width: 50%;
+    border: 2px black solid;
+    margin-top: 15px;
+    border-radius: 100px;
+    
+}
+
+.gambar{
+    width: 85%;
+    border-radius: 100px;
+    margin-top: 30px;
+
+}
+
+.title{
+    font-size: 200px;
+    padding-left: 160px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.bintang{
+    fill: gold;
+   
+    margin-left: 100px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    
+}
+
+.PR{
+    padding-right: 50px;
+}
+
+span{
+    color: grey;
+    font-size: 60px;
+}
+
+svg{
+    width: 150px;
+}
+
+.align-item-center{
+    align-items: center;  
+}
+
+.secondary-text{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: normal; */
+    padding-left: 98px;
+    padding-top: 70px;
+
+}
+
+h1{
+    font-weight: normal;
+}
+
+.third-row{
+    font-size: 70px;
+    margin-bottom: 40px;
+    color: rgb(70, 65, 65);
+}
+
+.underline{
+   width: 90%; 
+   border: 5px black solid;
+
+}
+
+.button{
+    width: 500px;
+    border: 8px solid black;
+    border-radius: 30px;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+
+.button:hover{
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: grey;
+    transition: 0.5s;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    
+}
+

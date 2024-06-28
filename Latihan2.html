@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIHAN 2</title>
+</head>
+<body>
+    <!-- TABLE -->
+    <table border="1" cellpadding="5" cellspacing="5">
+        <!-- cellpadding =  mengatur jarak tulisan dengan tepi garis -->
+        <!-- cellspacing = mengatur jarak kotak -->
+        <!-- ada tiga tag dalam membuat tabel -->
+        <!-- 1. th = table header (untuk membuat kolom untuk mengisi data (di bold) -->
+        <!-- 2. td = table data (untuk membuat kolom untuk mengisi data (gak di bold)) -->
+        <!-- 3. tr = table row (untuk membuat baris baru)-->
+        
+        <!-- <span style="margin: 70px;">DATA DIRI SISWA</span> -->
+        <tr>
+            <td colspan="4" style="text-align: center;">DATA DIRI SISWA</td>
+        </tr>
+        <tr bgcolor="green">
+            <th>No</th>
+            <th>Nama</th>
+            <th>Kelas</th>
+            <th>Jenis kelamin</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Putra</td>
+            <td>11</td>
+            <td>IPA</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Putri</td>
+            <td>12</td>
+            <td>IPS</td>
+        </tr>
+
+        <tr>
+            <!-- <td colspan="4">DATA DIRI SISWA</td> -->
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <!-- List Menu -->
+        <!-- 1. untuk membuat list yang berurutan menggunakan (ol)= ordered list -->
+        <!-- 2. untuk membuat list yang tidak berurutan (ul)= unordered list -->
+        <span style="margin-left: 75px;">LIST MENU</span>
+    <table border="1">
+        <!-- Ordered List -->
+        <tr>
+            <td width="150px">
+                <ol style="padding-left: 20px;"> Menu makanan
+                    <li>Lalapan</li>
+                    <li>Nasi goreng</li>
+                </ol>
+                
+            </td>
+        <!-- Unordered List -->
+            <td>
+                <ul type="square"> Menu makanan
+                    <li>Lalapan</li>
+                    <li>Nasi goreng</li>
+                </ul>
+
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <!-- FORMULIR -->
+    <form>
+        <span>Nama : </span>
+        <input type="text" style="width: 200px;">
+        <p></p>
+        <span>Alamat: </span>
+        <input type="text" style="width: 200px;">
+    </form>
+</body>
+</html>

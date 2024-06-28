@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 3</title>
+
+    <style>
+        /* kalau menggunakan titik (.)= pemanggilan class*/
+        /* kalau menggunakan hashtag (#)= pemanggilan id*/
+        /* dalam 1 elemen boleh menggunakan lebih dari 1 class*/
+        /* dalam 1 elemen tidak boleh menggunakan lebih dari 1 id*/
+        .txt-center {
+            text-align: center;
+            color: red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+           
+        }
+
+        
+    </style>
+</head>
+<!-- LANJUTAN FORM -->
+<body>
+    <table>
+        <form>
+            <tr>
+                <td colspan="3" id="txt-center">FORMULIR PENDAFTARAN</td>
+            </tr>
+            <tr>
+                <td>NIPD</td>
+                <td>:</td>
+                <td><input type="text" placeholder="NIPD"></td>
+            </tr>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td><input type="text" placeholder="Nama Lengkap"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="fav_language">L
+                    <input type="radio" name="fav_language">P
+                </td>
+            </tr>
+            <tr>
+                <td>Nomer Handphone</td>
+                <td>:</td>
+                <td><input type="text" placeholder="Nomer Handphone"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="email" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td>Gambar</td>
+                <td>:</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>Kabupaten</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option value="silahkan pilih kabupaten">silahkan pilih kabupaten</option>
+                        <option value="Denpasar">Denpasar</option>
+                        <option value="Badung">Badung</option>
+                        <option value="Jembrana">Jembrana</option>
+                        <option value="Bangli">Bangli</option>
+                        <option value="Karangasem">Karangasem</option>
+                        <option value="Buleleng">Buleleng</option>
+                        <option value="Tabanan">Tabanan</option>
+                        <option value="Klungkung">Klungkung</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="submit" value="simpan">Simpan</button>
+                    <button type="submit" value="Reset">Reset</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+
+</body>
+
+</html>
